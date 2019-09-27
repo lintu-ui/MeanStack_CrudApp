@@ -54,7 +54,9 @@ mainForm()
 
   uploadFile(event) {
     let reader = new FileReader(); // HTML5 FileReader API
-    let file = event.target.files[0];
+    var img = document.getElementById("fileid"); 
+    let file = img;
+    console.log("fhju",file);
     if (event.target.files && event.target.files[0]) {
       reader.readAsDataURL(file);
 

@@ -24,7 +24,7 @@ const routes: Routes = [
 { path: 'admin-home', component: AdminHomeComponent  },
 { path: 'admin-menu', component: AdminMenuComponent  },
 { path: 'logout', component: LogoutComponent },
-{ path: 'menu', component: ViewmenuComponent }
+{ path: 'viewmenu', component: ViewmenuComponent }
 
 
 ];
